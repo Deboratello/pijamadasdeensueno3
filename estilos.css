@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: duper;
+    color: #ef7a75;
+    font-size: x-large;
+}
+h2{
+    font-family: eigerdals;
+    color: #839080;
+    font-size: large;
+}
+legend{
+    font-family: eigerdals;
+    color: #839080;
+    font-size: medium;
+}
+h3{
+    font-family: Eigerdals;
+    color: #ef7a75;
+    font-size: medium;
+}
+h4{
+    font-family: duper;
+    color: white;
+    font-size: xx-large;
+}
+h5{
+    font-family: duper;
+    color: #ef7a75;
+    font-size: xx-large;
+}
+.nav-item{
+    font-family: Duper;
+    text-align: left;
+}
+p{
+    font-family: Eigerdals;
+    font-size: medium;
+}
+carousel{
+    height: 100%;
+}
+footer{
+    background-color: #839080;
+    text-align: center;
+    color: white;
+}
+form{
+    margin-left: 10%;
+}
+article{
+    margin-left: 10%;
+}   
+.container{
+    padding: 20px;
+}
+.row img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 1s;
+    box-shadow: 0 0 5px #333;
+}
+textarea{
+    resize: none;
+}
+.container col-9{
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 30%;
+}
