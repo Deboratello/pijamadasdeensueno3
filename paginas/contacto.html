@@ -48,49 +48,52 @@
     </nav>
     <!--FORMULARIO-->
     <form>
-        <fieldset><br>
-            <h1>Formulario</h1>
-            <div class="form-group">
-                <label for="nombre-apellido" class="form-label mt-4">Ingrese su nombre completo</label>
-                <input name="nombre-apellido" type="text" required><br>
+        <div class="row">
+            <div class="col-lg-4 col-md-8 col-10 mx-auto">
+                <h1>Formulario</h1>
+                <div class="form-group">
+                    <label for="nombre-apellido" class="form-label mt-4">Ingrese su nombre completo</label>
+                    <input name="nombre-apellido" type="text" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="correo@ejemplo.com">
+                    <small id="emailHelp" class="form-text text-muted">No compartiremos tus
+                        datos.</small><br><br>
+                </div>
+                <label for="teléfono">Ingrese su teléfono</label>
+                <input name="teléfono" required placeholder="+56987654321" type="text"><br>
+                <div class="form-group">
+                    <legend class="mt-4">¿Habías escuchado de nosotros antes?</legend>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1"
+                                value="option1" checked="">Si
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2"
+                                value="option2">No
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="form-label mt-4">Seleccione opción</label>
+                        <select class="form-select" id="exampleSelect1">
+                            <option>Consulta</option>
+                            <option>Cotización</option>
+                            <option>Sugerencia</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextarea" class="form-label mt-4">Escriba texto aquí</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea><br>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button><br><br>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Correo electrónico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="correo@ejemplo.com">
-                <small id="emailHelp" class="form-text text-muted">No compartiremos tus datos.</small><br><br>
-            </div>
-            <label for="teléfono">Ingrese su teléfono</label>
-            <input name="teléfono" required placeholder="+56987654321" type="text"><br>
-        </fieldset>
-        <fieldset class="form-group">
-            <legend class="mt-4">¿Habías escuchado de nosotros antes?</legend>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1"
-                        value="option1" checked="">Si
-                </label>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2"
-                        value="option2">No
-                </label>
-            </div>
-            <div class="form-group">
-                <label for="exampleSelect1" class="form-label mt-4">Seleccione opción</label>
-                <select class="form-select" id="exampleSelect1">
-                    <option>Consulta</option>
-                    <option>Cotización</option>
-                    <option>Sugerencia</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleTextarea" class="form-label mt-4">Escriba texto aquí</label>
-                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea><br>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button><br><br>
-        </fieldset>
+        </div>
     </form>
     <!--FOOTER-->
     <footer class="footer">

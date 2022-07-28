@@ -41,16 +41,15 @@ p{
     font-family: Eigerdals;
     font-size: medium;
 }
-carousel{
-    height: 100%;
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover
 }
 footer{
     background-color: #839080;
     text-align: center;
     color: white;
-}
-form{
-    margin-left: 10%;
 }
 article{
     margin-left: 10%;
