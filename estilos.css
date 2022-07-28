@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 h1{
+    padding-top: 10px;
     font-family: duper;
     color: #ef7a75;
     font-size: x-large;
