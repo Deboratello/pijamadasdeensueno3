@@ -59,6 +59,70 @@ p{
     width: 50%;
     color: #333;    
 }
+.container img{
+    width:350px;
+    height:200px;
+    display: block;
+    justify-content: center;
+    text-align: justify;
+}
+section.galeria:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+    box-shadow: 0 0 5px #333;
+}
+.item1{
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    background-size: cover;
+    background-position: center;
+}
+.item5{
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-size: cover;
+    background-position: center;
+}
+.item7{
+    background-size: cover;
+    background-position: center;
+}
+.item8{
+    background-size: cover;
+    background-position: center;
+}
+.item9{
+    background-size: cover;
+    background-position: center;
+}
+.item9{
+    background-size: cover;
+    background-position: center;
+}
+.item10{
+    background-size: cover;
+    background-position: center;
+}
+.item11{
+    background-size: cover;
+    background-position: center;
+}
+.item12{
+    background-size: cover;
+    background-position: center;
+}
 footer{
     background-color: #839080;
     text-align: center;
